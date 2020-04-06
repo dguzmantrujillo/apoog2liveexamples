@@ -25,7 +25,7 @@ public class CustomIntegerComparator implements Comparator<Integer> {
         // si son iguales, 0; si el entero o1 es menor, 1.
         if (o1 > o2) {
             return -1;
-        } else if (o1 == 02) {
+        } else if (o1 == o2) {
             return 0;
         } else {
             return 1;
